@@ -1,0 +1,99 @@
+.button {
+  background-color: #555555;
+  border-radius: 2px;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 60px;
+  align-self: center;
+  text-align: center;
+  text-decoration: none;
+  display: table-cell;;
+  font-size: 16px;
+
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.button:hover {
+    box-shadow: 0 7px 9px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button.disable {
+  background-color: #f44336;
+  width: 120px;
+}
+
+.button.hide {
+  background-color: transparent;
+  color: transparent;
+}
+
+.button.hide:hover {
+  box-shadow: 0 0px 0px 0 transparent, 0 0px 0px 0 transparent !important;
+}
+
+.row {
+  display: table-row;
+}
+
+.spacing {
+  width: 90px;
+  background-color: transparent;
+  display: table-cell;
+
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.spacing.voted {
+  width: 30px !important;
+}
+
+.format {
+  margin: 30px;
+  height: 300px;
+  width: 300px;
+  border: 2px;
+  display: table-cell;
+  position: middle;
+  border-radius: 5px;
+  background-color: inherit;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  position: middle;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24), 0 10px 25px 0 rgba(0,0,0,0.19);
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.format:hover {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+  height: 305px;
+  width: 305px;
+}
+
+.format.image1 {
+    background-image: url("C:/Users/Marc/Documents/Java Projekte/Website/Atom/Mapvote/Render2_00000.png") !important;
+}
+
+.format.crossfade1 {
+      /*background-image: url("C:/Users/Marc/Documents/Java Projekte/Website/Atom/Mapvote/Logo3(Clouds).png") !important;*/
+      filter: grayscale(100%);
+}
